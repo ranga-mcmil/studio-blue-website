@@ -1,0 +1,555 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>StudioBlue Architecture</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="{% static 'assets/img/logo.png' %}" rel="icon">
+  <link href="{% static 'assets/img/logo.png' %}" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="{% static 'assets/vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/bootstrap-icons/bootstrap-icons.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/boxicons/css/boxicons.min.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/glightbox/css/glightbox.min.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/swiper/swiper-bundle.min.css' %}" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="{% static 'assets/css/style.css' %}" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Lumia
+  * Updated: Jul 27 2023 with Bootstrap v5.3.1
+  * Template URL: https://bootstrapmade.com/lumia-bootstrap-business-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center">
+    <div class="container d-flex align-items-center">
+
+      <div class="logo me-auto">
+        <h1><a href="index.html">StudioBlue</a></h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!--<a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+      </div>
+
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">About</a></li>
+          <li><a class="nav-link scrollto" href="#services">Services</a></li>
+          <li><a class="nav-link scrollto " href="#portfolio">Portfolio</a></li>
+
+          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+      <div class="header-social-links d-flex align-items-center">
+        <a href="https://wa.me/263788892929" class="whatsapp"><i class="bi bi-whatsapp"></i></i></a>
+        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+      </div>
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+    <div class="container text-center text-md-left" data-aos="fade-up">
+      <h1>Welcome to <span>StudioBlue</span></h1>
+      <h2>Giving your dreams a shape of reality!</h2>
+      <a href="#about" class="btn-get-started scrollto">Get Started</a>
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= What We Do Section ======= -->
+    <section id="what-we-do" class="what-we-do">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>What We Do</h2>
+          <p>A full service design and build construction firm speciliazing in residential, commercial and institutional
+            construction. We offer a comprehensive range of services that enables us to tailor deliver systems which
+            matches your needs, goals and budget</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bxl-dribbble"></i></div>
+              <h4><a href="">Integrity</a></h4>
+              <p>Together we represent our company with strong moral standards, embodying our principles of truth,
+                honour, trust and reliability</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-file"></i></div>
+              <h4><a href="">Collaborative</a></h4>
+              <p>We cooperate and collaborate with all parties engaged with our projects in order to achieve excellence
+                in the results of our activities</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-tachometer"></i></div>
+              <h4><a href="">Quality in Service</a></h4>
+              <p>Our services are consistently of a high standard delivering good designs while deftly controlling
+                information, managing consultants and delivering projects on time and within budget</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End What We Do Section -->
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-lg-6">
+            <img src="{% static 'assets/img/about.jpg' %}" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0">
+            <h3>About Us</h3>
+            <p>
+              We have proven our ability to take on large, complex projects and complete them on time, on budget, and at
+              the highest levels of quality.
+            </p>
+
+            <div class="row icon-boxes">
+              <div class="col-md-6">
+                <i class="bx bx-receipt"></i>
+                <h4>Enhancing Knowledge</h4>
+                <p>Everyday we become better at what we do. We actively seek to drive improvement through our company,
+                  our people, and the work that we do. We embrace challenges as opportunities, and innovative in
+                  resolving them to provide the greatest benefit</p>
+              </div>
+              <div class="col-md-6 mt-4 mt-md-0">
+                <i class="bx bx-cube-alt"></i>
+                <h4>Ethical</h4>
+                <p>We recognise that we are the custodians of our environment. We carry out our activities with the
+                  greatest respect for people and wildlife, minimise the use of resources and impact of development, and
+                  work to create social capital in all that we do</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+
+
+
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Services</h2>
+          <p>We provide the most innovative, versatile and cost-effective architectural designs, engineering and
+            construction solutions</p>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6">
+            <div class="icon-box">
+              <i class="bi bi-briefcase"></i>
+              <h4><a href="#">Building Plan Drawing</a></h4>
+              <p>Building plans are graphical representations of how a structure will appear after completion. Builders
+                and contractors utilize them to construct a variety of structures. Buidling Blueprints are also
+                important for calculating the cost of a project and creating project budgets.</p>
+            </div>
+          </div>
+          <div class="col-md-6 mt-4 mt-lg-0">
+            <div class="icon-box">
+              <i class="bi bi-card-checklist"></i>
+              <h4><a href="#">Architectural Design</a></h4>
+              <p>Architectural design is a field that focuses on covering and meeting the needs and expectations of
+                creating living environments via the use of certain tools and, most impotantly, creativity. As a result,
+                despite widespread notion that architecture is solely a technological endeavor, the goal is to integrate
+                the technological and the aesthetic.</p>
+            </div>
+          </div>
+          <div class="col-md-6 mt-4">
+            <div class="icon-box">
+              <i class="bi bi-bar-chart"></i>
+              <h4><a href="#">3D Modelling</a></h4>
+              <p>The process of constructing three-dimensional representations of an object or a surface is known as 3D
+                modelling. 3D models are created using computer-based 3D modelling software. The size, form, and texture
+                of an object can be determined throughout the 3D modelling process.</p>
+            </div>
+          </div>
+          <div class="col-md-6 mt-4">
+            <div class="icon-box">
+              <i class="bi bi-binoculars"></i>
+              <h4><a href="#">Structural Engineering Drawing</a></h4>
+              <p>Structural engineering is a branch of civil engineering that is concerned with the design structural
+                design of man-made structures. Often described as designing the 'bones and muscles' of structures, these
+                engineers need to understand the rigidity, stability and strength of both buildings and non-building
+                structures.</p>
+            </div>
+          </div>
+          <div class="col-md-6 mt-4">
+            <div class="icon-box">
+              <i class="bi bi-brightness-high"></i>
+              <h4><a href="#">Bill of Quantities</a></h4>
+              <p>A bill of quantities is a document used in the construction business to itemize materials, parts, and
+                labor. It also specifies the terms and conditions of the construction or repair contract, as well as
+                itemizes all work so that a contractor my price the work for which he or she is bidding.</p>
+            </div>
+          </div>
+          <div class="col-md-6 mt-4">
+            <div class="icon-box">
+              <i class="bi bi-calendar4-week"></i>
+              <h4><a href="#">Construction Servies</a></h4>
+              <p>Construction services are the physical construction work performed by the CM/GC contractor to construct
+                a project or part of a project (including early work packages). Construction services include all costs
+                of performing, supervising and managing physical construction works.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Services Section -->
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Portfolio</h2>
+          <p>Examples of projects done by the company</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-12">
+
+          </div>
+          '
+        </div>
+
+        <div class="row portfolio-container">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app wow fadeInUp">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="{% static 'assets/img/portfolio/portfolio-1.jpg' %}" class="img-fluid" alt="">
+                <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery"
+                  class="link-preview portfolio-lightbox" title="Preview"><i class="bx bx-plus"></i></a>
+
+              </figure>
+
+
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web wow fadeInUp" data-wow-delay="0.1s">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="{% static 'assets/img/portfolio/portfolio-2.jpg' %}" class="img-fluid" alt="">
+                <a href="assets/img/portfolio/portfolio-2.jpg" class="link-preview portfolio-lightbox"
+                  data-gallery="portfolioGallery" title="Preview"><i class="bx bx-plus"></i></a>
+
+              </figure>
+
+
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app wow fadeInUp" data-wow-delay="0.2s">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="{% static 'assets/img/portfolio/portfolio-3.jpg' %}" class="img-fluid" alt="">
+                <a href="assets/img/portfolio/portfolio-3.jpg" class="link-preview portfolio-lightbox"
+                  data-gallery="portfolioGallery" title="Preview"><i class="bx bx-plus"></i></a>
+
+              </figure>
+
+
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card wow fadeInUp">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="{% static 'assets/img/portfolio/portfolio-4.jpg' %}" class="img-fluid" alt="">
+                <a href="assets/img/portfolio/portfolio-4.jpg" class="link-preview portfolio-lightbox"
+                  data-gallery="portfolioGallery" title="Preview"><i class="bx bx-plus"></i></a>
+
+              </figure>
+
+
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web wow fadeInUp" data-wow-delay="0.1s">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="{% static 'assets/img/portfolio/portfolio-5.jpg' %}" class="img-fluid" alt="">
+                <a href="assets/img/portfolio/portfolio-5.jpg" class="link-preview portfolio-lightbox"
+                  data-gallery="portfolioGallery" title="Preview"><i class="bx bx-plus"></i></a>
+
+              </figure>
+
+
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app wow fadeInUp" data-wow-delay="0.2s">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="{% static 'assets/img/portfolio/portfolio-6.jpg' %}" class="img-fluid" alt="">
+                <a href="assets/img/portfolio/portfolio-6.jpg" class="link-preview portfolio-lightbox"
+                  data-gallery="portfolioGallery" title="Preview"><i class="bx bx-plus"></i></a>
+
+              </figure>
+
+
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card wow fadeInUp" data-wow-delay="0.1s">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="{% static 'assets/img/portfolio/portfolio-7.jpg' %}" class="img-fluid" alt="">
+                <a href="assets/img/portfolio/portfolio-7.jpg" class="link-preview portfolio-lightbox"
+                  data-gallery="portfolioGallery" title="Preview"><i class="bx bx-plus"></i></a>
+
+              </figure>
+
+
+            </div>
+          </div>
+
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web wow fadeInUp" data-wow-delay="0.2s">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="{% static 'assets/img/portfolio/portfolio-9.jpg' %}" class="img-fluid" alt="">
+                <a href="assets/img/portfolio/portfolio-9.jpg" class="link-preview portfolio-lightbox"
+                  data-gallery="portfolioGallery" title="Preview"><i class="bx bx-plus"></i></a>
+
+              </figure>
+
+
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web wow fadeInUp" data-wow-delay="0.1s">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="{% static 'assets/img/portfolio/portfolio-10.jpg' %}" class="img-fluid" alt="">
+                <a href="assets/img/portfolio/portfolio-10.jpg" class="link-preview portfolio-lightbox"
+                  data-gallery="portfolioGallery" title="Preview"><i class="bx bx-plus"></i></a>
+
+              </figure>
+
+
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web wow fadeInUp" data-wow-delay="0.2s">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="{% static 'assets/img/portfolio/portfolio-11.jpg' %}" class="img-fluid" alt="">
+                <a href="assets/img/portfolio/portfolio-11.jpg" class="link-preview portfolio-lightbox"
+                  data-gallery="portfolioGallery" title="Preview"><i class="bx bx-plus"></i></a>
+
+              </figure>
+
+
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web wow fadeInUp" data-wow-delay="0.1s">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="{% static 'assets/img/portfolio/portfolio-12.jpg' %}" class="img-fluid" alt="">
+                <a href="assets/img/portfolio/portfolio-12.jpg" class="link-preview portfolio-lightbox"
+                  data-gallery="portfolioGallery" title="Preview"><i class="bx bx-plus"></i></a>
+
+              </figure>
+
+
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web wow fadeInUp" data-wow-delay="0.2s">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="{% static 'assets/img/portfolio/portfolio-13.jpg' %}" class="img-fluid" alt="">
+                <a href="assets/img/portfolio/portfolio-13.jpg" class="link-preview portfolio-lightbox"
+                  data-gallery="portfolioGallery" title="Preview"><i class="bx bx-plus"></i></a>
+
+              </figure>
+
+
+            </div>
+          </div>
+
+
+
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Section -->
+
+
+
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Contact</h2>
+          <p>Get in touch with us!</p>
+        </div>
+
+        <div class="row mt-5 justify-content-center">
+
+          <div class="col-lg-10">
+
+            <div class="info-wrap">
+              <div class="row">
+                <div class="col-lg-4 info">
+                  <i class="bi bi-geo-alt"></i>
+                  <h4>Location:</h4>
+                  <p>20 Rolf Avenue<br>Ballantyne Park, Borrowdale Harare</p>
+                </div>
+
+                <div class="col-lg-4 info mt-4 mt-lg-0">
+                  <i class="bi bi-envelope"></i>
+                  <h4>Email:</h4>
+                  <p>studiobluearch@gmail.com</p>
+                </div>
+
+                <div class="col-lg-4 info mt-4 mt-lg-0">
+                  <i class="bi bi-phone"></i>
+                  <h4>Call:</h4>
+                  <p>+263 715 680 684<br>+263 779 017 573</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="row mt-5 justify-content-center">
+          <div class="col-lg-10">
+            <form method="post" class="php-email-form">
+				{% csrf_token %}
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  {{form.name}}
+                </div>
+                <div class="col-md-6 form-group mt-3 mt-md-0">
+                  {{form.email}}
+                </div>
+              </div>
+              <div class="form-group mt-3">
+                {{form.subject}}
+              </div>
+              <div class="form-group mt-3">
+                {{form.message}}
+              </div>
+              
+              <div class="text-center"><button type="submit">Send Message</button></div>
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h3>StudioBlue</h3>
+            <p>
+              20 Rolf Avenue <br>
+              Ballantyne Park, Borrowdale, Harare<br>
+              Zimbabwe <br><br>
+              <strong>Phone:</strong> +263 715 680 684<br>
+              <strong>Email:</strong> studiobluearch@gmail.com<br>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container d-md-flex py-4">
+
+      <div class="me-md-auto text-center text-md-start">
+        <div class="copyright">
+          &copy; Copyright <strong><span>StudioBlue</span></strong>. All Rights Reserved
+        </div>
+        <div class="credits">
+          <!-- All the links in the footer should remain intact. -->
+          <!-- You can delete the links only if you purchased the pro version. -->
+          <!-- Licensing information: https://bootstrapmade.com/license/ -->
+          <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/lumia-bootstrap-business-template/ -->
+          Designed by <a href="">yungkaatt</a>
+        </div>
+      </div>
+      <div class="social-links text-center text-md-right pt-3 pt-md-0">
+        <a href="#" class="whatsapp"><i class="bx bxl-whatsapp"></i></a>
+        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="{% static 'assets/vendor/purecounter/purecounter_vanilla.js' %}"></script>
+  <script src="{% static 'assets/vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/glightbox/js/glightbox.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/isotope-layout/isotope.pkgd.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/swiper/swiper-bundle.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/waypoints/noframework.waypoints.js' %}"></script>
+
+  <!-- Template Main JS File -->
+  <script src="{% static 'assets/js/main.js' %}"></script>
+
+</body>
+
+</html>
